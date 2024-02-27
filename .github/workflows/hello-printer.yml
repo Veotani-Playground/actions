@@ -1,4 +1,6 @@
 name: Hello Printer
+on:
+  workflow_call:
 
 jobs:
   example_job:
