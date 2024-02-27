@@ -1,0 +1,8 @@
+name: Hello Printer
+
+jobs:
+  example_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print hello
+        run: echo "Hello!"
